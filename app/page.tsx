@@ -1,6 +1,7 @@
-
 const Home = () => (
-  <h1>Projects</h1>
+  <>
+    <h1 className="h1-bold">Projects</h1>
+  </>
 );
-  
+
 export default Home;
