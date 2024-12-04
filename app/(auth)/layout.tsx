@@ -1,6 +1,6 @@
 import { ReactNode } from "react";
 import Image from "next/image";
-import AuthForm from "@/components/forms/AuthForm";
+import AuthForm from "@/components/forms/SocialAuthForm";
 
 const AuthLayout = ({ children }: { children: ReactNode }) => {
   return (
@@ -14,11 +14,11 @@ const AuthLayout = ({ children }: { children: ReactNode }) => {
             </p>
           </div>
           <Image
-            src="/images/logo1.png"
+            src="/images/site-logo.svg"
             alt="ConnectaTool Logo"
             width={80}
             height={50}
-            className="object-contain"
+            className="object-contain invert-colors"
           />
         </div>
         {children}
