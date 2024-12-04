@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   title: "ConectaTool",
   description: "Proyects",
   icons: {
-    // icon: "/mages/site-logo.svg",
+    icon: "/mages/site-logo.svg",
   },
 };
 
